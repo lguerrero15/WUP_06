@@ -69,6 +69,7 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
 
+According to the chart the race "white" has an overall greater percentage (73%) of being in favor of cappun, with race "other" holding (55%), and race "black" last with 45% in favor of cappun. However, race "black" has an overall greater percentage of 53% in opposed to cappun, with other second with 43% and race "white" in last with 32% in opposed to cappun.
 
 ### Numerical Descriptive Results
 
