@@ -1,7 +1,7 @@
 ---
 title: "GSS challange"
-author: "Put your name here!"
-date: "put the date here"
+author: "Leilani Guerrero"
+date: "Summer 2022"
 output: html_document
 ---
 
@@ -29,6 +29,9 @@ mydata <- na.omit(mydata)
 
 Is attitude toward capitol punishment (cappun) independent of race (race)?
 If not, then whose view differs from whom??
+
+$H_0$: Attitude towards capital punishment is not related to race.
+$H_A$: Attitude towards capital punishment is related to race.
 
 # Methods
 
