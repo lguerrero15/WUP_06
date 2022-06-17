@@ -111,8 +111,11 @@ The p-value for the chi-squared test was 0.00000000000001027, because the p-valu
 fisherXY(mydata$cappun,mydata$race)
 ```
  
- 
+ For the first compassion, White v Black, 1085 of white are in favor of cappun and 511 of white are opposed of cappun, 162 of black are in favor of cappun and 188 of black are opposed to cappun. because the p-value of white v black is 0.0000000000000575 which is less than 0.05 we reject the null hypothsis. 
+ For the second compassion, White v Other, 1085 of white are in favor of cappun and 511 of white are opposed of cappun, 138 of other are in favor of cappun and 109 of other are opposed to cappun. because the p-value of white v black is 0.0002819 which is less than 0.05 we reject the null hypothsis.
+ For the last compassion, Other v Black, 138 of other are in favor of cappun and 109 of other are opposed of cappun, 162 of black are in favor of cappun and 188 of black are opposed to cappun. because the p-value of white v black is 0.02479 which is less than 0.05 we reject the null hypothsis.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+The null hypothesis was Attitude towards capital punishment is not related to race., while the alternative Attitude towards capital punishment is related to race. However, since the p-value for the chi-squared test was 0.00000000000001027 we reject the null hypothesis because the P-value is less than 0.05. 
