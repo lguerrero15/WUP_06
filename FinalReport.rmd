@@ -86,6 +86,7 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
+According to the number chart, out of 100 race "white" 67.98 are in favor of cappun and 32.02 are opposed to cappun. Out of 100 race "black" 46.29 are in favor of cappun and 53.71 are opposed to cappun. Out of 100 race "other" 55.87 are in favor of cappun and 44.13 are opposed to cappun. In addition, out of the 100 races in favor of cappun; 78.34 are of "white" race, 11.7 are of "black" race, and 9.96 are other. Out of the 100 of races that are opposed to cappun; 63.24 are white, 23.27 are black, and 13.49 are other.
 
 ## Inferential Results
 
@@ -103,9 +104,13 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
+The p-value for the chi-squared test was 0.00000000000001027, because the p-value is less then 0.05 we reject the null hypothesis.
+
+
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
+ 
  
 
 # Discussion and Conclusion
